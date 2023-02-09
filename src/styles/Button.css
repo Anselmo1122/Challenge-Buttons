@@ -1,0 +1,178 @@
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.icon-start {
+    margin-right: .4rem;
+    font-size: 1.1rem;
+}
+.icon-end {
+    margin-left: .4rem;
+    font-size: 1.1rem;
+}
+
+/* ----- Sizes */
+
+.sm {
+    padding: .6rem 1rem;
+}
+.md {
+    padding: .7rem 1.3rem;
+}
+.lg {
+    padding: .8rem 1.6rem;
+}
+
+/* ----- Styles variant default */
+
+.default.shadow {box-shadow: 2px 0 4px 0 #00000025;}
+.default.color-default {
+    background-color: #E0E0E0;
+    color: #333333;
+}
+.default.color-default:hover {
+    background-color: #AEAEAE;
+    color: #333333;
+}
+.default.color-primary {
+    background-color: #2962FF;
+    color: #ffffff;
+}
+.default.color-primary:hover {
+    background-color: #0039CB;
+    color: #ffffff;
+}
+.default.color-secondary {
+    background: #455A64;
+    color: #ffffff;
+}
+.default.color-secondary:hover {
+    background: #1C313A;
+    color: #ffffff;
+}
+.default.color-danger {
+    background: #D32F2F;
+    color: #ffffff;
+}
+.default.color-danger:hover {
+    background: #9A0007;
+    color: #ffffff;
+}
+.default.disabled {
+    user-select: none;
+    cursor: default;
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+}
+.default.disabled:hover {
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+}
+
+/* ----- Styles variant outline */
+
+.outline {
+    background: transparent;
+    border: 1px solid;
+}
+.outline.shadow {box-shadow: 2px 0 4px 0 #00000025;}
+.outline.color-default {
+    background: transparent;
+    color: #E0E0E0;
+    border-color: #E0E0E0;
+}
+.outline.color-default:hover {
+    background: #e0e0e02d;
+}
+.outline.color-primary {
+    background: transparent;
+    color: #3D5AFE;
+    border-color: #3d5afe;
+}
+.outline.color-primary:hover {
+    background: #3d5afe31;
+}
+.outline.color-secondary {
+    background: transparent;
+    color: #455A64;
+    border-color: #455A64;
+}
+.outline.color-secondary:hover {
+    background: #455a643d;
+}
+.outline.color-danger {
+    background: transparent;
+    color: #D32F2F;
+    border-color: #D32F2F;
+}
+.outline.color-danger:hover {
+    background: #d32f2f31;
+}
+.outline.disabled {
+    user-select: none;
+    cursor: default;
+    color: #9E9E9E;
+    border-color: #9E9E9E;
+}
+.outline.disabled:hover {
+    background: transparent;
+    color: #9E9E9E;
+    border-color: #9E9E9E;
+}
+
+/* ----- Styles variant outline */
+
+.text {
+    background: transparent;
+    border: none;
+}
+.text.color-default {
+    background: transparent;
+    color: #bebebe;
+}
+.text.color-default:hover {
+    background: #e0e0e02c;
+}
+.text.color-primary {
+    background: transparent;
+    color: #3D5AFE;
+}
+.text.color-primary:hover {
+    background: #3d5afe2d;
+}
+.text.color-secondary {
+    background: transparent;
+    color: #455A64;
+}
+.text.color-secondary:hover {
+    background: #455a6431;
+}
+.text.color-danger {
+    background: transparent;
+    color: #D32F2F;
+}
+.text.color-danger:hover {
+    background: #d32f2f23;
+}
+.text.disabled {
+    user-select: none;
+    cursor: default;
+    color: #9E9E9E;
+}
+.text.disabled:hover {
+    background: transparent;
+}
