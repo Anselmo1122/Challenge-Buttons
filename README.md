@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges-button-component-adh.netlify.app/">
+    <a href="https://challenge-buttons.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -34,7 +34,7 @@
 ## Overview
 
 <div align="center">
-  <img src="images/screen.png" alt="screen">
+  <img src="src/assets/screen.png" alt="screen">
 </div>
 
 ### Built With
