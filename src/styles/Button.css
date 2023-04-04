@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap');
 
 button {
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: .5rem;
+    border-radius: .4rem;
     font-size: .9rem;
     font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .button {
     display: flex;
@@ -13,28 +15,29 @@ button {
 }
 
 .text-content {
-    font-family: sans-serif;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 1rem;
 }
-.icon-start {
-    margin-right: .4rem;
-    font-size: 1.1rem;
+.icon-start,
+.icon-end {
+    margin-right: .5rem;
+    font-size: 1.4rem;
 }
 .icon-end {
-    margin-left: .4rem;
-    font-size: 1.1rem;
+    margin-left: .5rem;
 }
 
 /* ----- Sizes */
 
 .sm {
-    padding: .6rem 1rem;
+    padding: .4rem .9rem;
 }
 .md {
-    padding: .7rem 1.3rem;
+    padding: .5rem 1.2rem;
 }
 .lg {
-    padding: .8rem 1.6rem;
+    padding: .6rem 1.5rem;
 }
 
 /* ----- Styles variant default */
@@ -104,7 +107,7 @@ button {
     border-color: #3d5afe;
 }
 .outline.color-primary:hover {
-    background: #3d5afe31;
+    background: #3d5afe13;
 }
 .outline.color-secondary {
     background: transparent;
@@ -112,7 +115,7 @@ button {
     border-color: #455A64;
 }
 .outline.color-secondary:hover {
-    background: #455a643d;
+    background: #455a6413;
 }
 .outline.color-danger {
     background: transparent;
@@ -120,7 +123,7 @@ button {
     border-color: #D32F2F;
 }
 .outline.color-danger:hover {
-    background: #d32f2f31;
+    background: #d32f2f15;
 }
 .outline.disabled {
     user-select: none;
@@ -145,28 +148,28 @@ button {
     color: #bebebe;
 }
 .text.color-default:hover {
-    background: #e0e0e02c;
+    background: #e0e0e011;
 }
 .text.color-primary {
     background: transparent;
     color: #3D5AFE;
 }
 .text.color-primary:hover {
-    background: #3d5afe2d;
+    background: #3d5afe11;
 }
 .text.color-secondary {
     background: transparent;
     color: #455A64;
 }
 .text.color-secondary:hover {
-    background: #455a6431;
+    background: #455a6413;
 }
 .text.color-danger {
     background: transparent;
     color: #D32F2F;
 }
 .text.color-danger:hover {
-    background: #d32f2f23;
+    background: #d32f2f0e;
 }
 .text.disabled {
     user-select: none;

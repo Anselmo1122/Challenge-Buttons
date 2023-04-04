@@ -1,9 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+#App {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: 100vh;
 }
 
+/* ====== Section main */
+
+#main {
+  flex-grow: 1;
+  padding: 2rem 1rem 2rem 4rem;
+  width: auto;
+  border-bottom: 5px solid #fafafa;
+}
+
+.main__title {
+  margin-bottom: 2.5rem;
+}
+
+/* ====== Section buttons */
+
 .buttons__row {
+  width: 100%;
   margin: 1rem 0;
+  margin-bottom: 4rem;
+  display: grid;
+}
+
+.buttons__row:first-child,
+.buttons__row:nth-child(2),
+.buttons__row:nth-child(3),
+.buttons__row:nth-child(5),
+.buttons__row:nth-child(6),
+.buttons__row:nth-child(7) {
+  max-width: 600px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+}
+.buttons__row:nth-child(7) {
+  max-width: 700px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.buttons__row:nth-child(8),
+.buttons__row:nth-child(9) {
+  grid-template-columns: repeat(4, 1fr);
+  place-items: flex-end;
+}
+
+
+.buttons__item {
+  width: 100%;
+}
+
+.buttons__desc {
+  font-family: Ubuntu Mono;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.buttons__desc.hover {
+  color: #b6b6b6;
+}
+
+/* ====== Footer */
+.footer {
+  margin: 9rem 0 1rem 0;
+  text-align: center;
+  font: normal 400 0.8rem Montserrat, sans-serif;
+  color: #828282;
+}
+.username a {
+  margin: 0 .2rem;
+  font-weight: 700;
+  color: #828282;
 }
